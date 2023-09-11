@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.appsWrapperInside{
+    text-align: center;
+}
+
+.input--first_name, .input--second_name{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: aqua;
+    color: blueviolet;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+#button--send{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: bisque;
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 100ms;
+    box-shadow: darkcyan 5px 5px 5px;
+}
+
+#button--send:hover{
+    scale: 1.1;
+    box-shadow: darkcyan 10px 10px 10px;
+}
